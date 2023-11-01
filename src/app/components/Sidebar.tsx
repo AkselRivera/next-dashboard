@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { TbBrandNextjs } from 'react-icons/tb'
 import { LuLayoutDashboard } from 'react-icons/lu'
 import { AiOutlineCalculator } from 'react-icons/ai'
+import { IoFootball } from 'react-icons/io5'
 import { SidebarMenuItem } from './SidebarMenuItem'
 
 const MenuItems = [
@@ -18,13 +19,19 @@ const MenuItems = [
     title: 'Counter',
     subtitle: 'App state',
   },
+  {
+    path: '/dashboard/pokemons',
+    icon: <IoFootball className="mr-2" size={25} />,
+    title: 'Pokemons',
+    subtitle: 'Static Generation',
+  },
 ]
 
 export function Sidebar() {
   return (
     <div
       id="menu"
-      className="bg-gray-900 min-h-screen z-10 text-slate-300 min-w-[18rem]  left-0 h-screen overflow-y-scroll"
+      className="bg-gray-900 min-h-screen z-10 text-slate-300 min-w-[18rem]  left-0 "
     >
       <div id="logo" className="my-4 px-4">
         <h1 className="flex items-center text-lg md:text-2xl font-bold text-white">
