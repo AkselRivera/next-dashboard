@@ -1,5 +1,5 @@
+import { PokemonGrid, PokemonResponse, SimplePokemon } from '@/pokemons'
 import Image from 'next/image'
-import { PokemonGrid, PokemonResponse, SimplePokemon } from './'
 
 const getPokemons = async (
   limit = 151,

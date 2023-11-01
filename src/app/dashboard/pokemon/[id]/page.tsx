@@ -1,5 +1,5 @@
+import { Pokemon } from '@/pokemons'
 import { Metadata } from 'next'
-import { Pokemon } from '../../pokemons'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
 
@@ -31,8 +31,6 @@ const getPokemon = async (id: string): Promise<Pokemon> => {
       // cache: 'force-cache',
       next: { revalidate: 60 * 60 * 30 * 6 },
     }).then((response) => response.json())
-
-    console.log(pokemon)
 
     return pokemon
   } catch (error) {
