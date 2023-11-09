@@ -1,4 +1,4 @@
-import { CardCounter } from '@/shopping-cart'
+import { CardCounter } from '@/components/shopping-cart'
 
 export const metadata = {
   title: 'Counter Page',
