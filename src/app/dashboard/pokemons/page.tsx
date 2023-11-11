@@ -32,7 +32,7 @@ export default async function PokemonsPage() {
   return (
     <div>
       <h3 className="text-5xl my-2">
-        Listado de pokemons <small>Static</small>
+        Listado de pokemons <small className="text-blue-500">Static</small>
       </h3>
 
       <PokemonGrid pokemons={pokemons} />

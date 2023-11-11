@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { TbBrandNextjs } from 'react-icons/tb'
 import { LuLayoutDashboard } from 'react-icons/lu'
 import { AiOutlineCalculator } from 'react-icons/ai'
-import { IoFootball } from 'react-icons/io5'
+import { IoFootball, IoHeartOutline } from 'react-icons/io5'
 import { SidebarMenuItem } from './SidebarMenuItem'
 
 const MenuItems = [
@@ -24,6 +24,12 @@ const MenuItems = [
     icon: <IoFootball className="mr-2" size={25} />,
     title: 'Pokemons',
     subtitle: 'Static Generation',
+  },
+  {
+    path: '/dashboard/favorites',
+    icon: <IoHeartOutline className="mr-2" size={25} />,
+    title: 'Favorites',
+    subtitle: 'Global state',
   },
 ]
 

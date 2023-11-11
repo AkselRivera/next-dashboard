@@ -1,2 +1,2 @@
 
-export {CardCounter} from './components/CardCounter';
+export {CartCounter} from './components/CartCounter';
