@@ -1,4 +1,4 @@
-import { PokemonGrid } from '@/components/pokemons'
+import { PokemonGrid } from '@/pokemons'
 
 export const metadata = {
   title: 'Pokemons - Favorites',

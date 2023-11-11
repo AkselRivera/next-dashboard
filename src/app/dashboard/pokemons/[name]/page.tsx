@@ -1,4 +1,4 @@
-import { Pokemon, PokemonResponse } from '@/components/pokemons'
+import { Pokemon, PokemonResponse } from '@/pokemons'
 import { Metadata } from 'next'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'

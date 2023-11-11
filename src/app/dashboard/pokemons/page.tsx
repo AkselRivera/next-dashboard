@@ -1,8 +1,4 @@
-import {
-  PokemonGrid,
-  PokemonResponse,
-  SimplePokemon,
-} from '@/components/pokemons'
+import { PokemonGrid, PokemonResponse, SimplePokemon } from '@/pokemons'
 
 export const metadata = {
   title: 'Pokemons - Dashboard',

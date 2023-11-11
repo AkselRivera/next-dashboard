@@ -50,7 +50,7 @@ export function Sidebar() {
         </p>
       </div>
       <div id="profile" className="px-4 py-10">
-        <p className="text-slate-500">Welcome back,</p>
+        <p className="text-slate-500">Welcome back</p>
         <a href="#" className="inline-flex space-x-2 items-center">
           <span>
             <Image
